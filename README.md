@@ -9,6 +9,7 @@ Repositório oficial com a documentação técnica, especificações normativas 
 
 - **🌐 [fichas_tecnicas.html](fichas_tecnicas.html):** Painel web interativo para navegação visual dos EPIs, alternador de fotos e galerias em 360°, especificações e suporte a impressão / PDF em formato A4.
 - **📄 [FICHAS_TECNICAS_EPIS.md](FICHAS_TECNICAS_EPIS.md):** Documento descritivo com códigos de rastreabilidade interna, enquadramento normativo (NR-06, NR-10, ABNT NBR), fichas de conservação e matriz de responsabilidades.
+- **📺 [Comportamento_Seguro/](Comportamento_Seguro/):** Campanha oficial de conscientização para sinalização digital (TVs da fábrica) com o roteiro de 20 slides em padrão de alto contraste baseado no modelo visual de `Comportamento_Seguro_01.jpeg`.
 - **📁 [modelos/](modelos/):** Fotografias e mockups ultrarrealistas em alta resolução dos equipamentos:
   - **Uniforme Industrial TekSea:** Vista frontal e traseira com logo ampliado e faixas refletivas prismáticas de alta visibilidade.
   - **Capacete de Segurança Classe B:** Casco em ABS virgem branco com logo frontal TekSea e isolamento elétrico certificado (20.000 V).
