@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fichas Técnicas de EPI — TekSea SSIPATMA</title>
+  <meta name="description" content="Catálogo técnico de Equipamentos de Proteção Individual para o programa SSIPATMA da TekSea. Em conformidade com NR-06, NR-10 e normas ABNT.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #007A3D;
+      --primary-dark: #005A2D;
+      --primary-light: #E6F4ED;
+      --accent: #E5A919;
+      --bg: #0F172A;
+      --card-bg: #1E293B;
+      --card-border: #334155;
+      --text-main: #F8FAFC;
+      --text-muted: #94A3B8;
+      --surface-white: #FFFFFF;
+      --badge-bg: rgba(0, 122, 61, 0.2);
+      --badge-text: #22C55E;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      background: #0B1120;
+      color: var(--text-main);
+      line-height: 1.6;
+      min-height: 100vh;
+      padding-bottom: 60px;
+    }
+
+    /* Top Bar */
+    header {
+      background: linear-gradient(180deg, rgba(15, 23, 42, 0.95) 0%, rgba(11, 17, 32, 0.95) 100%);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--card-border);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      padding: 1rem 2rem;
+    }
+
+    .header-container {
+      max-width: 1300px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .brand-wrap {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+    }
+
+    .brand-wrap img {
+      height: 38px;
+      background: white;
+      padding: 4px 8px;
+      border-radius: 6px;
+      object-fit: contain;
+    }
+
+    .brand-titles h1 {
+      font-size: 1.35rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      color: #FFFFFF;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .brand-titles p {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .badge-event {
+      background: linear-gradient(135deg, #007A3D 0%, #10B981 100%);
+      color: white;
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 0.25rem 0.65rem;
+      border-radius: 9999px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .header-actions {
+      display: flex;
+      gap: 0.75rem;
+    }
+
+    .btn-print {
+      background: #1E293B;
+      color: #F8FAFC;
+      border: 1px solid #334155;
+      padding: 0.55rem 1.1rem;
+      border-radius: 8px;
+      font-size: 0.875rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: all 0.2s ease;
+    }
+
+    .btn-print:hover {
+      background: #334155;
+      border-color: #475569;
+    }
+
+    /* Main Container */
+    main {
+      max-width: 1300px;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
+    }
+
+    /* Filter Tabs */
+    .filter-tabs {
+      display: flex;
+      gap: 0.5rem;
+      overflow-x: auto;
+      padding-bottom: 0.5rem;
+      margin-bottom: 2rem;
+      border-bottom: 1px solid var(--card-border);
+    }
+
+    .tab-btn {
+      background: transparent;
+      color: var(--text-muted);
+      border: none;
+      padding: 0.75rem 1.25rem;
+      font-size: 0.95rem;
+      font-weight: 600;
+      border-radius: 8px;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.2s ease;
+    }
+
+    .tab-btn:hover {
+      color: var(--text-main);
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .tab-btn.active {
+      color: #FFFFFF;
+      background: var(--primary);
+      box-shadow: 0 4px 12px rgba(0, 122, 61, 0.35);
+    }
+
+    /* Grid of EPIs */
+    .epi-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 2.5rem;
+    }
+
+    .epi-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4);
+      display: grid;
+      grid-template-columns: 460px 1fr;
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+
+    .epi-card:hover {
+      border-color: #475569;
+    }
+
+    @media (max-width: 960px) {
+      .epi-card {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Image Gallery Column */
+    .gallery-col {
+      background: #020617;
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border-right: 1px solid var(--card-border);
+    }
+
+    @media (max-width: 960px) {
+      .gallery-col {
+        border-right: none;
+        border-bottom: 1px solid var(--card-border);
+      }
+    }
+
+    .main-image-wrap {
+      width: 100%;
+      height: 380px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: radial-gradient(circle, rgba(30, 41, 59, 0.4) 0%, rgba(2, 6, 23, 0.9) 100%);
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .main-image-wrap img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+      transition: transform 0.3s ease;
+    }
+
+    .main-image-wrap:hover img {
+      transform: scale(1.03);
+    }
+
+    .thumb-strip {
+      display: flex;
+      gap: 0.5rem;
+      margin-top: 1rem;
+      overflow-x: auto;
+      max-width: 100%;
+      padding: 0.25rem;
+    }
+
+    .thumb-item {
+      width: 60px;
+      height: 60px;
+      border-radius: 8px;
+      border: 2px solid transparent;
+      overflow: hidden;
+      cursor: pointer;
+      background: #0F172A;
+      opacity: 0.6;
+      transition: all 0.2s ease;
+      flex-shrink: 0;
+    }
+
+    .thumb-item:hover {
+      opacity: 0.9;
+    }
+
+    .thumb-item.active {
+      border-color: var(--primary);
+      opacity: 1;
+      box-shadow: 0 0 10px rgba(0, 122, 61, 0.5);
+    }
+
+    .thumb-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* Content Column */
+    .content-col {
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 0.75rem;
+    }
+
+    .epi-code {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--primary);
+      background: var(--primary-light);
+      padding: 0.2rem 0.6rem;
+      border-radius: 6px;
+      letter-spacing: 0.05em;
+    }
+
+    .norm-tags {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .norm-tag {
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 0.2rem 0.55rem;
+      border-radius: 6px;
+      background: rgba(229, 169, 25, 0.15);
+      color: #FBBF24;
+      border: 1px solid rgba(229, 169, 25, 0.3);
+    }
+
+    .epi-title {
+      font-size: 1.45rem;
+      font-weight: 700;
+      color: #FFFFFF;
+      margin-bottom: 0.5rem;
+      line-height: 1.3;
+    }
+
+    .epi-subtitle {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 1.5rem;
+    }
+
+    .specs-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+      background: rgba(15, 23, 42, 0.6);
+      padding: 1.25rem;
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .spec-item h4 {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      letter-spacing: 0.05em;
+      margin-bottom: 0.25rem;
+    }
+
+    .spec-item p {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: #E2E8F0;
+    }
+
+    .details-accordion {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .detail-box {
+      background: rgba(30, 41, 59, 0.5);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      border-radius: 8px;
+      padding: 0.85rem 1rem;
+    }
+
+    .detail-box h5 {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: #38BDF8;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      margin-bottom: 0.35rem;
+    }
+
+    .detail-box p, .detail-box ul {
+      font-size: 0.85rem;
+      color: #CBD5E1;
+    }
+
+    .detail-box ul {
+      padding-left: 1.2rem;
+      margin-top: 0.25rem;
+    }
+
+    .card-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 1rem;
+      border-top: 1px solid var(--card-border);
+    }
+
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 0.8rem;
+      color: #10B981;
+      font-weight: 600;
+    }
+
+    .status-badge::before {
+      content: '';
+      width: 8px;
+      height: 8px;
+      background: #10B981;
+      border-radius: 50%;
+      box-shadow: 0 0 8px #10B981;
+    }
+
+    .btn-card-print {
+      background: transparent;
+      border: 1px solid var(--primary);
+      color: #34D399;
+      padding: 0.4rem 0.85rem;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .btn-card-print:hover {
+      background: var(--primary);
+      color: white;
+    }
+
+    /* Responsibilities Section */
+    .nr6-section {
+      background: linear-gradient(145deg, #1E293B 0%, #0F172A 100%);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 2.5rem;
+      margin-top: 2rem;
+    }
+
+    .nr6-header {
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto 2.5rem auto;
+    }
+
+    .nr6-header h2 {
+      font-size: 1.75rem;
+      font-weight: 800;
+      color: #FFFFFF;
+      margin-bottom: 0.5rem;
+    }
+
+    .nr6-header p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    .nr6-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+    }
+
+    @media (max-width: 768px) {
+      .nr6-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .nr6-col {
+      background: rgba(15, 23, 42, 0.7);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      border-radius: 12px;
+      padding: 1.75rem;
+    }
+
+    .nr6-col h3 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: 1.25rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .nr6-empresa h3 { color: #34D399; }
+    .nr6-empregado h3 { color: #60A5FA; }
+
+    .nr6-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.85rem;
+    }
+
+    .nr6-list li {
+      font-size: 0.875rem;
+      color: #E2E8F0;
+      display: flex;
+      align-items: flex-start;
+      gap: 0.6rem;
+      line-height: 1.5;
+    }
+
+    .nr6-list li span.check {
+      color: #34D399;
+      font-weight: bold;
+    }
+
+    /* Print Styles */
+    @media print {
+      body {
+        background: white !important;
+        color: black !important;
+        padding: 0 !important;
+      }
+      header, .filter-tabs, .btn-print, .btn-card-print, .thumb-strip {
+        display: none !important;
+      }
+      .epi-card {
+        page-break-after: always;
+        box-shadow: none !important;
+        border: 1px solid #ccc !important;
+        background: white !important;
+        color: black !important;
+        margin-bottom: 2rem;
+      }
+      .gallery-col {
+        background: white !important;
+        border-right: 1px solid #eee !important;
+      }
+      .main-image-wrap {
+        background: white !important;
+        height: 300px;
+      }
+      .epi-title, .spec-item p, .detail-box p, .detail-box ul, .detail-box h5 {
+        color: black !important;
+      }
+      .specs-grid, .detail-box {
+        background: #f9fafb !important;
+        border: 1px solid #e5e7eb !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Header Bar -->
+  <header>
+    <div class="header-container">
+      <div class="brand-wrap">
+        <img src="Teksea.png" alt="Logo TekSea">
+        <div class="brand-titles">
+          <h1>SSIPATMA — Catálogo Oficial de EPIs <span class="badge-event">2026</span></h1>
+          <p>Fichas Técnicas Ocupacionais em conformidade com NR-06, NR-10 e ABNT NBR</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <button class="btn-print" onclick="window.print()" title="Imprimir catálogo completo">
+          🖨️ Imprimir Fichas
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- Category Filter Tabs -->
+    <nav class="filter-tabs" aria-label="Filtro de Equipamentos">
+      <button class="tab-btn active" onclick="filterEpi('all', this)">Todos os EPIs (4)</button>
+      <button class="tab-btn" onclick="filterEpi('uniforme', this)">Uniforme Industrial</button>
+      <button class="tab-btn" onclick="filterEpi('capacete', this)">Capacete Classe B</button>
+      <button class="tab-btn" onclick="filterEpi('botina', this)">Botina NR-10 (360°)</button>
+      <button class="tab-btn" onclick="filterEpi('oculos', this)">Óculos de Proteção</button>
+      <button class="tab-btn" onclick="filterEpi('nr6', this)">Diretrizes NR-06</button>
+    </nav>
+
+    <!-- Cards Grid -->
+    <div class="epi-grid">
+
+      <!-- CARD 1: UNIFORME INDUSTRIAL -->
+      <article class="epi-card" data-category="uniforme" id="card-uniforme">
+        <div class="gallery-col">
+          <div class="main-image-wrap">
+            <img id="img-uniforme" src="modelos/uniforme_industrial_teksea_frente.jpg" alt="Uniforme Industrial TekSea Frente">
+          </div>
+          <div class="thumb-strip">
+            <div class="thumb-item active" onclick="switchImage('img-uniforme', 'modelos/uniforme_industrial_teksea_frente.jpg', this)">
+              <img src="modelos/uniforme_industrial_teksea_frente.jpg" alt="Frente">
+            </div>
+            <div class="thumb-item" onclick="switchImage('img-uniforme', 'modelos/uniforme_industrial_teksea_costas.jpg', this)">
+              <img src="modelos/uniforme_industrial_teksea_costas.jpg" alt="Costas">
+            </div>
+          </div>
+        </div>
+
+        <div class="content-col">
+          <div>
+            <div class="card-top">
+              <span class="epi-code">EPI-UNI-HV01</span>
+              <div class="norm-tags">
+                <span class="norm-tag">ABNT NBR 15292</span>
+                <span class="norm-tag">NR-06</span>
+                <span class="norm-tag">Classe 2 Hi-Vis</span>
+              </div>
+            </div>
+            <h2 class="epi-title">Uniforme Industrial de Alta Visibilidade TekSea</h2>
+            <p class="epi-subtitle">Conjunto técnico operacional de alta durabilidade com faixas refletivas prismáticas de 360° e identificação bordada.</p>
+
+            <div class="specs-grid">
+              <div class="spec-item">
+                <h4>Composição do Tecido</h4>
+                <p>Sarja 67% Poliéster / 33% Algodão (~260 g/m²)</p>
+              </div>
+              <div class="spec-item">
+                <h4>Refletivos</h4>
+                <p>Fitamento duplo prata 50mm com borda neon</p>
+              </div>
+              <div class="spec-item">
+                <h4>Costuras</h4>
+                <p>Pesponto triplo reforçado anti-rasgo</p>
+              </div>
+              <div class="spec-item">
+                <h4>Identidade Visual</h4>
+                <p>Logo TekSea peito frontal e costas amplas</p>
+              </div>
+            </div>
+
+            <div class="details-accordion">
+              <div class="detail-box">
+                <h5>🛡️ Riscos Protegidos & Aplicação</h5>
+                <p>Proteção do tronco e membros contra agentes mecânicos leves, sujidades abrasivas e garantia de conspicuidade e visibilidade em pátios industriais com fluxo de máquinas e empilhadeiras.</p>
+              </div>
+              <div class="detail-box">
+                <h5>🧼 Conservação & Descarte</h5>
+                <p>Lavar com sabão neutro até 40°C sem alvejante. Não passar ferro diretamente sobre as faixas refletivas. Descartar em caso de queima ou perda da refletividade.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-footer">
+            <span class="status-badge">Aprovado pelo SESMT / CIPA</span>
+            <button class="btn-card-print" onclick="printCard('card-uniforme')">Ficha em PDF</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- CARD 2: CAPACETE CLASSE B -->
+      <article class="epi-card" data-category="capacete" id="card-capacete">
+        <div class="gallery-col">
+          <div class="main-image-wrap">
+            <img id="img-capacete" src="modelos/capacete_branco_teksea.jpg" alt="Capacete de Segurança TekSea Classe B">
+          </div>
+          <div class="thumb-strip">
+            <div class="thumb-item active" onclick="switchImage('img-capacete', 'modelos/capacete_branco_teksea.jpg', this)">
+              <img src="modelos/capacete_branco_teksea.jpg" alt="Capacete Branco">
+            </div>
+          </div>
+        </div>
+
+        <div class="content-col">
+          <div>
+            <div class="card-top">
+              <span class="epi-code">EPI-CAP-CLB01</span>
+              <div class="norm-tags">
+                <span class="norm-tag">ABNT NBR 8221:2019</span>
+                <span class="norm-tag">Classe B (20.000 V)</span>
+                <span class="norm-tag">NR-10</span>
+              </div>
+            </div>
+            <h2 class="epi-title">Capacete de Segurança Industrial Classe B TekSea</h2>
+            <p class="epi-subtitle">Capacete com aba frontal em ABS virgem com nervuras de deflexão e isolamento elétrico certificado para baixa e média tensão.</p>
+
+            <div class="specs-grid">
+              <div class="spec-item">
+                <h4>Material do Casco</h4>
+                <p>Polímero ABS / PEAD com proteção anti-UV</p>
+              </div>
+              <div class="spec-item">
+                <h4>Isolamento Elétrico</h4>
+                <p>Classe B — Isolação até 20.000 V (sem partes metálicas)</p>
+              </div>
+              <div class="spec-item">
+                <h4>Suspensão Interna</h4>
+                <p>Carneira têxtil 6 pontos com ajuste tipo catraca</p>
+              </div>
+              <div class="spec-item">
+                <h4>Slots de Acessórios</h4>
+                <p>Fendas universais 30mm p/ concha e protetor facial</p>
+              </div>
+            </div>
+
+            <div class="details-accordion">
+              <div class="detail-box">
+                <h5>🛡️ Riscos Protegidos & Aplicação</h5>
+                <p>Proteção craniana contra queda de ferramentas, impactos de objetos contundentes e proteção de arco/choque elétrico acidental em manobras de instalações de energia.</p>
+              </div>
+              <div class="detail-box">
+                <h5>🧼 Inspeção & Substituição</h5>
+                <p>Substituição compulsória imediata em caso de impacto violento (mesmo sem trinca visível). Validade do casco de até 5 anos. Lavagem manual com água e sabão neutro.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-footer">
+            <span class="status-badge">Aprovado pelo SESMT / CIPA</span>
+            <button class="btn-card-print" onclick="printCard('card-capacete')">Ficha em PDF</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- CARD 3: BOTINA NR-10 COM GIRO 360 -->
+      <article class="epi-card" data-category="botina" id="card-botina">
+        <div class="gallery-col">
+          <div class="main-image-wrap">
+            <img id="img-botina" src="modelos/bota_seguranca_nr10.jpg" alt="Botina NR-10 TekSea">
+          </div>
+          <div class="thumb-strip">
+            <div class="thumb-item active" onclick="switchImage('img-botina', 'modelos/bota_seguranca_nr10.jpg', this)" title="Perspectiva 3/4">
+              <img src="modelos/bota_seguranca_nr10.jpg" alt="3/4">
+            </div>
+            <div class="thumb-item" onclick="switchImage('img-botina', 'modelos/bota_seguranca_nr10_frontal.jpg', this)" title="Frente">
+              <img src="modelos/bota_seguranca_nr10_frontal.jpg" alt="Frente">
+            </div>
+            <div class="thumb-item" onclick="switchImage('img-botina', 'modelos/bota_seguranca_nr10_lateral.jpg', this)" title="Lateral Externa">
+              <img src="modelos/bota_seguranca_nr10_lateral.jpg" alt="Lateral Externa">
+            </div>
+            <div class="thumb-item" onclick="switchImage('img-botina', 'modelos/bota_seguranca_nr10_lateral_interna.jpg', this)" title="Lateral Interna">
+              <img src="modelos/bota_seguranca_nr10_lateral_interna.jpg" alt="Lateral Interna">
+            </div>
+            <div class="thumb-item" onclick="switchImage('img-botina', 'modelos/bota_seguranca_nr10_traseira.jpg', this)" title="Traseira">
+              <img src="modelos/bota_seguranca_nr10_traseira.jpg" alt="Traseira">
+            </div>
+          </div>
+        </div>
+
+        <div class="content-col">
+          <div>
+            <div class="card-top">
+              <span class="epi-code">EPI-CAL-NR10</span>
+              <div class="norm-tags">
+                <span class="norm-tag">NR-10 Eletricista</span>
+                <span class="norm-tag">ABNT NBR 16603</span>
+                <span class="norm-tag">100% Metal-Free</span>
+              </div>
+            </div>
+            <h2 class="epi-title">Botina de Segurança Dielétrica NR-10 (Metal-Free)</h2>
+            <p class="epi-subtitle">Calçado de segurança em couro nobuck café com biqueira composite e solado PU bidensidade com isolamento elétrico certificado.</p>
+
+            <div class="specs-grid">
+              <div class="spec-item">
+                <h4>Cabedal</h4>
+                <p>Couro Nobuck legítimo hidrofugado 1.8-2.0mm</p>
+              </div>
+              <div class="spec-item">
+                <h4>Biqueira</h4>
+                <p>Composite 200 Joules (isento de metal, não condutivo)</p>
+              </div>
+              <div class="spec-item">
+                <h4>Solado Dielétrico</h4>
+                <p>Poliuretano bidensidade injetado (isolação até 500V)</p>
+              </div>
+              <div class="spec-item">
+                <h4>Fechamento & Cano</h4>
+                <p>Botinha cano acolchoado e cadarço de tração</p>
+              </div>
+            </div>
+
+            <div class="details-accordion">
+              <div class="detail-box">
+                <h5>🛡️ Riscos Protegidos & Aplicação</h5>
+                <p>Especialmente desenvolvido para equipes elétricas e manutenção. Protege contra choques elétricos em baixa tensão, esmagamento dos dedos, perfuração e escorregamentos (solado SRC).</p>
+              </div>
+              <div class="detail-box">
+                <h5>🧼 Conservação do Isolamento</h5>
+                <p>Manter o solado livre de óleos condutivos, graxas ou pregos incrustados. Secar sempre à sombra e em temperatura ambiente. Descartar se o solado apresentar desgaste severo da camada isolante.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-footer">
+            <span class="status-badge">Aprovado pelo SESMT / CIPA</span>
+            <button class="btn-card-print" onclick="printCard('card-botina')">Ficha em PDF</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- CARD 4: ÓCULOS DE SEGURANÇA -->
+      <article class="epi-card" data-category="oculos" id="card-oculos">
+        <div class="gallery-col">
+          <div class="main-image-wrap">
+            <img id="img-oculos" src="modelos/oculos_seguranca_epi.jpg" alt="Óculos de Segurança VisionGuard">
+          </div>
+          <div class="thumb-strip">
+            <div class="thumb-item active" onclick="switchImage('img-oculos', 'modelos/oculos_seguranca_epi.jpg', this)">
+              <img src="modelos/oculos_seguranca_epi.jpg" alt="Óculos VisionGuard">
+            </div>
+          </div>
+        </div>
+
+        <div class="content-col">
+          <div>
+            <div class="card-top">
+              <span class="epi-code">EPI-OCU-VG01</span>
+              <div class="norm-tags">
+                <span class="norm-tag">ANSI Z87.1-2020</span>
+                <span class="norm-tag">ABNT NBR 16360</span>
+                <span class="norm-tag">UV 99.9%</span>
+              </div>
+            </div>
+            <h2 class="epi-title">Óculos de Proteção Ocular VisionGuard Pro</h2>
+            <p class="epi-subtitle">Lentes panorâmicas envolventes em policarbonato óptico com tratamento duplo antirrisco/antiembaçante e hastes anatômicas.</p>
+
+            <div class="specs-grid">
+              <div class="spec-item">
+                <h4>Lente</h4>
+                <p>Policarbonato virgem incolor curva base 9</p>
+              </div>
+              <div class="spec-item">
+                <h4>Tratamentos Ópticos</h4>
+                <p>Antirrisco exterior + Antiembaçante interior</p>
+              </div>
+              <div class="spec-item">
+                <h4>Proteção Periférica</h4>
+                <p>Proteção lateral envolvente com aletas de ventilação</p>
+              </div>
+              <div class="spec-item">
+                <h4>Apoio Nasal & Hastes</h4>
+                <p>Silicone hipoalergênico e extremidades emborrachadas</p>
+              </div>
+            </div>
+
+            <div class="details-accordion">
+              <div class="detail-box">
+                <h5>🛡️ Riscos Protegidos & Aplicação</h5>
+                <p>Barreira total contra partículas volantes multidirecionais (cavacos de metal, serragem, poeira de brita) e respingos químicos acidentais. Uso indispensável em linhas de usinagem, furação e montagem.</p>
+              </div>
+              <div class="detail-box">
+                <h5>🧼 Cuidados com as Lentes</h5>
+                <p>Lavar somente com água corrente e detergente neutro. Nunca limpar a seco com roupas ou papel para não degradar a camada antirrisco. Guardar em estojo protetor.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-footer">
+            <span class="status-badge">Aprovado pelo SESMT / CIPA</span>
+            <button class="btn-card-print" onclick="printCard('card-oculos')">Ficha em PDF</button>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- Responsabilidades NR-06 Section -->
+    <section class="nr6-section" id="section-nr6">
+      <div class="nr6-header">
+        <h2>Diretrizes da Norma Regulamentadora NR-06</h2>
+        <p>Alinhamento dos compromissos legais entre a TekSea e seus colaboradores para a preservação contínua da saúde e integridade física.</p>
+      </div>
+
+      <div class="nr6-grid">
+        <!-- Coluna Empresa -->
+        <div class="nr6-col nr6-empresa">
+          <h3>🏢 Obrigações da Organização (TekSea)</h3>
+          <ul class="nr6-list">
+            <li><span class="check">✔</span> Fornecer gratuitamente o EPI adequado e homologado ao risco de cada posto.</li>
+            <li><span class="check">✔</span> Exigir o uso contínuo e fiscalizar a correta utilização nas áreas de risco.</li>
+            <li><span class="check">✔</span> Ministrar treinamentos práticos de colocação, higienização e manutenção preventiva.</li>
+            <li><span class="check">✔</span> Substituir imediatamente qualquer equipamento extraviado ou danificado.</li>
+            <li><span class="check">✔</span> Manter registro formal e rastreável de fornecimento (Ficha de EPI).</li>
+          </ul>
+        </div>
+
+        <!-- Coluna Colaborador -->
+        <div class="nr6-col nr6-empregado">
+          <h3>👷 Obrigações do Colaborador</h3>
+          <ul class="nr6-list">
+            <li><span class="check">✔</span> Utilizar o EPI durante todo o período de permanência na área de risco.</li>
+            <li><span class="check">✔</span> Utilizar o equipamento estritamente para a finalidade a que se destina.</li>
+            <li><span class="check">✔</span> Responsabilizar-se pela guarda, limpeza e conservação diária da sua peça.</li>
+            <li><span class="check">✔</span> Comunicar de imediato ao SESMT/Liderança qualquer dano ou perda de eficácia.</li>
+            <li><span class="check">✔</span> Cumprir rigorosamente as determinações dos treinamentos da SSIPATMA.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script>
+    // Image Switcher for Galleries
+    function switchImage(targetImgId, newSrc, clickedThumb) {
+      const mainImg = document.getElementById(targetImgId);
+      if (mainImg) {
+        mainImg.style.opacity = '0';
+        setTimeout(() => {
+          mainImg.src = newSrc;
+          mainImg.style.opacity = '1';
+        }, 150);
+      }
+      
+      // Update active state in thumbnail strip
+      const strip = clickedThumb.parentElement;
+      const thumbs = strip.querySelectorAll('.thumb-item');
+      thumbs.forEach(t => t.classList.remove('active'));
+      clickedThumb.classList.add('active');
+    }
+
+    // Category Filter
+    function filterEpi(category, btn) {
+      // Update active tab style
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const cards = document.querySelectorAll('.epi-card');
+      const nr6Section = document.getElementById('section-nr6');
+
+      if (category === 'all') {
+        cards.forEach(c => c.style.display = 'grid');
+        nr6Section.style.display = 'block';
+      } else if (category === 'nr6') {
+        cards.forEach(c => c.style.display = 'none');
+        nr6Section.style.display = 'block';
+        nr6Section.scrollIntoView({ behavior: 'smooth' });
+      } else {
+        cards.forEach(c => {
+          if (c.getAttribute('data-category') === category) {
+            c.style.display = 'grid';
+          } else {
+            c.style.display = 'none';
+          }
+        });
+        nr6Section.style.display = 'none';
+      }
+    }
+
+    // Single Card Print Trigger
+    function printCard(cardId) {
+      const card = document.getElementById(cardId);
+      if (!card) return;
+      window.print();
+    }
+  </script>
+</body>
+</html>
