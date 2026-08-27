@@ -25,8 +25,8 @@ Documentação técnica descritiva de especificação, uso, manutenção e requi
 | **Cor Predominante** | Cinza Industrial Médio (*Medium Industrial Gray*) com detalhes em alta visibilidade |
 
 ### 🖼️ Registro Fotográfico do Modelo
-- **Frente:** [uniforme_industrial_teksea_frente.jpg](modelos/uniforme_industrial_teksea_frente.jpg)
-- **Costas:** [uniforme_industrial_teksea_costas.jpg](modelos/uniforme_industrial_teksea_costas.jpg)
+- **Frente:** [uniforme_industrial_teksea_frente.jpg](modelos/Uniforme/uniforme_industrial_teksea_frente.jpg)
+- **Costas:** [uniforme_industrial_teksea_costas.jpg](modelos/Uniforme/uniforme_industrial_teksea_costas.jpg)
 
 ### ⚙️ Especificações Construtivas e Materiais
 - **Tecido:** Sarja pesada mista de alta durabilidade (67% poliéster / 33% algodão), gramatura ~260 g/m² com acabamento hidro-repelente e anti-pilling.
@@ -61,7 +61,7 @@ Documentação técnica descritiva de especificação, uso, manutenção e requi
 | **Cor** | Branco puro brilhante com acabamento UV |
 
 ### 🖼️ Registro Fotográfico do Modelo
-- **Modelo Oficial:** [capacete_branco_teksea.jpg](modelos/capacete_branco_teksea.jpg)
+- **Modelo Oficial:** [capacete_branco_teksea.jpg](modelos/Uniforme/capacete_branco_teksea.jpg)
 
 ### ⚙️ Especificações Construtivas e Materiais
 - **Casco:** Moldado em Polietileno de Alta Densidade (PEAD) ou polímero ABS virgem com nervuras estruturais superiores para dispersão e deflexão de impacto balístico/queda de objetos.
@@ -95,11 +95,11 @@ Documentação técnica descritiva de especificação, uso, manutenção e requi
 | **Material do Cabedal** | Couro Nobuck legítimo hidrofugado marrom café |
 
 ### 🖼️ Registro Fotográfico do Modelo (Giro 360°)
-- **Perspectiva Geral 3/4:** [bota_seguranca_nr10.jpg](modelos/bota_seguranca_nr10.jpg)
-- **Vista Frontal:** [bota_seguranca_nr10_frontal.jpg](modelos/bota_seguranca_nr10_frontal.jpg)
-- **Vista Lateral Externa:** [bota_seguranca_nr10_lateral.jpg](modelos/bota_seguranca_nr10_lateral.jpg)
-- **Vista Lateral Interna:** [bota_seguranca_nr10_lateral_interna.jpg](modelos/bota_seguranca_nr10_lateral_interna.jpg)
-- **Vista Traseira (Calcanhar):** [bota_seguranca_nr10_traseira.jpg](modelos/bota_seguranca_nr10_traseira.jpg)
+- **Perspectiva Geral 3/4:** [bota_seguranca_nr10.jpg](modelos/Uniforme/bota_seguranca_nr10.jpg)
+- **Vista Frontal:** [bota_seguranca_nr10_frontal.jpg](modelos/Uniforme/bota_seguranca_nr10_frontal.jpg)
+- **Vista Lateral Externa:** [bota_seguranca_nr10_lateral.jpg](modelos/Uniforme/bota_seguranca_nr10_lateral.jpg)
+- **Vista Lateral Interna:** [bota_seguranca_nr10_lateral_interna.jpg](modelos/Uniforme/bota_seguranca_nr10_lateral_interna.jpg)
+- **Vista Traseira (Calcanhar):** [bota_seguranca_nr10_traseira.jpg](modelos/Uniforme/bota_seguranca_nr10_traseira.jpg)
 
 ### ⚙️ Especificações Construtivas e Materiais
 - **Cabedal:** Couro nobuck premium de 1,8 a 2,0 mm de espessura com tratamento para repelência à água, óleo e graxas.
@@ -135,7 +135,7 @@ Documentação técnica descritiva de especificação, uso, manutenção e requi
 | **Lente** | Policarbonato monobloco incolor de grau óptico 1 |
 
 ### 🖼️ Registro Fotográfico do Modelo
-- **Modelo Oficial:** [oculos_seguranca_epi.jpg](modelos/oculos_seguranca_epi.jpg)
+- **Modelo Oficial:** [oculos_seguranca_epi.jpg](modelos/Uniforme/oculos_seguranca_epi.jpg)
 
 ### ⚙️ Especificações Construtivas e Materiais
 - **Lente:** Policarbonato virgem incolor de alta densidade óptica com curvatura base 9 que acompanha a anatomia facial.
