@@ -25,3 +25,12 @@ Este arquivo define as regras e restrições mandatórias de comportamento para 
 * **Fidelidade Fisionômica e Estética Absoluta:** Ao construir qualquer personagem em slides de campanha (ex: `Comportamento_Seguro`), peças gráficas ou materiais institucionais, o personagem deve ser reproduzido **EXATAMENTE como ele se parece na imagem oficial de sua pasta e no arquivo `perfil.md` correspondente** (mesmos traços faciais, etnia, idade, cabelos, óculos, expressão, biótipo, caimento de roupas e acessórios).
 * **Organização em Pastas:** Cada personagem deve ter sua própria subpasta dentro de `modelos/Personagens/`, contendo a imagem em alta resolução e sua ficha técnica completa no arquivo `perfil.md`.
 * **Nomenclatura:** Personagens genéricos não possuem nomes próprios (identificados como `Personagem_Generico_X`). Os membros com nomes específicos são reservados exclusivamente para a **CIPAA**.
+
+---
+
+## 🔍 4. Conferência Prévia Mandatória de Modelos, Perfis e Fichas Técnicas
+* **Auditoria Cruzada Obrigatória:** Antes de gerar qualquer slide ou composição visual, o assistente **DEVE obrigatoriamente inspecionar via visão computacional e leitura textual**:
+  1. **As imagens de referência oficiais dos EPIs e uniformes** em [`modelos/Uniforme/`](modelos/Uniforme/) e suas especificações em [`FICHAS_TECNICAS_EPIS.md`](FICHAS_TECNICAS_EPIS.md) (ex.: logo da TekSea no capacete é **estritamente centralizado na frente**, nunca nas laterais; uniforme de chão de fábrica possui gola alta estruturada fechada no pescoço, vista de zíper e bolsos técnicos específicos);
+  2. **A imagem oficial do personagem** na sua respectiva pasta e seu arquivo `perfil.md`;
+  3. **A coerência da cena com o perfil do personagem:** A função, senioridade e postura do personagem descritas no `perfil.md` devem ser respeitadas no contexto da cena da campanha (avaliando se a atitude retratada condiz com o cargo e atribuições do colaborador na fábrica).
+

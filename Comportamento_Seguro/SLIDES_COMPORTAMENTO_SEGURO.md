@@ -48,7 +48,7 @@
 * **Texto da Tela:**
   * **[VERMELHO]:** `1 SEGUNDO`
   * **[BRANCO BOLD]:** `DE DISTRAÇÃO`
-  * **[BRANCO]:** `UM FIO NO BORNE ERRADO PODE CAUSAR UM CURTO FATAL.`
+  * **[BRANCO]:** `UM PEQUENO DESCUIDO PODE CAUSAR UM ACIDENTE GRAVE.`
 * **Cena Fotográfica (Direita):** Montador de painel elétrico com uniforme escuro, capacete e óculos, de cabeça baixa olhando para o celular ao lado de uma placa de montagem com chicote aberto e canaletas plásticas.
 * **Rodapé:** `SIPATMA 2026  |  SEGURANÇA COMEÇA COM VOCÊ. 🍃` — **TekSea®**
 
@@ -59,8 +59,8 @@
 * **Ícone Gráfico:** Cronômetro estilizado em chamas vermelhas (`⏱️`).
 * **Texto da Tela:**
   * **[VERMELHO]:** `A PRESSA`
-  * **[BRANCO BOLD]:** `CRIA PONTO QUENTE`
-  * **[BRANCO]:** `USE SEMPRE O TORQUÍMETRO. PARAFUSO FROUXO É INCÊNDIO FUTURO.`
+  * **[BRANCO BOLD]:** `IGNORA RISCOS`
+  * **[BRANCO]:** `USE SEMPRE A FERRAMENTA CERTA. O TRABALHO MAL FEITO COLOCA TODOS EM PERIGO.`
 * **Cena Fotográfica (Direita):** Técnico montador utilizando torquímetro calibrado para apertar parafuso métrico em barramento de cobre principal de um CCM, com atenção concentrada na escala.
 * **Rodapé:** `SIPATMA 2026  |  SEGURANÇA COMEÇA COM VOCÊ. 🍃` — **TekSea®**
 
@@ -71,8 +71,8 @@
 * **Ícone Gráfico:** Círculo de repetição / engrenagem amarela com faísca (`🔄`).
 * **Texto da Tela:**
   * **[AMARELO]:** `“SEMPRE FIZ ASSIM”?`
-  * **[BRANCO BOLD]:** `A ELETRICIDADE NÃO AVISA`
-  * **[BRANCO]:** `TESTE SEMPRE A AUSÊNCIA DE TENSÃO ANTES DE TOCAR.`
+  * **[BRANCO BOLD]:** `O PERIGO É INVISÍVEL`
+  * **[BRANCO]:** `NUNCA AJA SEM TER CERTEZA DE QUE O AMBIENTE ESTÁ SEGURO.`
 * **Cena Fotográfica (Direita):** Eletrotécnico com multímetro/voltímetro e pontas de prova testando a barra de entrada de um cubículo antes de colocar as mãos nos bornes.
 * **Rodapé:** `SIPATMA 2026  |  SEGURANÇA COMEÇA COM VOCÊ. 🍃` — **TekSea®**
 
@@ -82,9 +82,9 @@
 * **Contexto:** Máquinas operatrizes de barramento de cobre (corte, puncionadeira e dobradeira hidráulica).
 * **Ícone Gráfico:** Mira/vetor de corte com seta em vermelho vivo (`🎯`).
 * **Texto da Tela:**
-  * **[VERMELHO]:** `DOBRANDO COBRE?`
-  * **[BRANCO BOLD]:** `MÃOS FORA DA MATRIZ`
-  * **[BRANCO]:** `A PRENSA HIDRÁULICA NÃO RECONHECE OSSO NEM DEDO.`
+  * **[VERMELHO]:** `OPERANDO MÁQUINAS?`
+  * **[BRANCO BOLD]:** `MÃOS FORA DA ÁREA DE RISCO`
+  * **[BRANCO]:** `O EQUIPAMENTO NÃO RECONHECE OSSO NEM DEDO. ATENÇÃO MÁXIMA.`
 * **Cena Fotográfica (Direita):** Operador de óculos e luvas de vaqueta operando dobradeira hidráulica de barras de cobre, mantendo as duas mãos firmes a distância segura da prensa e dos mordentes.
 * **Rodapé:** `SIPATMA 2026  |  SEGURANÇA COMEÇA COM VOCÊ. 🍃` — **TekSea®**
 
@@ -94,7 +94,7 @@
 * **Contexto:** Teste funcional e comissionamento com painel aberto sob tensão.
 * **Ícone Gráfico:** Escudo duplo com raio interno em verde esmeralda (`🛡️`).
 * **Texto da Tela:**
-  * **[VERDE]:** `VAI ENERGIZAR?`
+  * **[VERDE]:** `VAI INICIAR O TESTE?`
   * **[BRANCO BOLD]:** `AVISE AO REDOR!`
   * **[BRANCO]:** `CUIDAR DO COLEGA DA BANCADA AO LADO É DEVER DE TODOS.`
 * **Cena Fotográfica (Direita):** Testador fazendo contato visual com os colegas da bancada vizinha e apontando para a sinaleira vermelha rotativa de "Painel Energizado" antes de fechar a chave geral.
@@ -106,9 +106,9 @@
 * **Contexto:** Uso de estiletes, alicates decapadores e tesouras de cabos.
 * **Ícone Gráfico:** Olho estilizado em foco digital azul ciano (`👁️`).
 * **Texto da Tela:**
-  * **[AZUL]:** `DECAPANDO CABO?`
+  * **[AZUL]:** `USANDO FERRAMENTAS CORTANTES?`
   * **[BRANCO BOLD]:** `CORTE PARA LONGE DO CORPO`
-  * **[BRANCO]:** `ESTILETE CEGO OU DESATENÇÃO CAUSA CORTE PROFUNDO.`
+  * **[BRANCO]:** `FERRAMENTA INADEQUADA OU DESATENÇÃO CAUSAM FERIMENTOS PROFUNDOS.`
 * **Cena Fotográfica (Direita):** Close-up nítido nas mãos enluvadas usando decapador automático de precisão em cabos de controle multicapilar, com olhar focado e seguro.
 * **Rodapé:** `SIPATMA 2026  |  SEGURANÇA COMEÇA COM VOCÊ. 🍃` — **TekSea®**
 
@@ -118,9 +118,9 @@
 * **Contexto:** Manutenção interna e modificação de fiação com alimentador conectado.
 * **Ícone Gráfico:** Cadeado industrial de bloqueio dourado com tag de perigo (`🔒`).
 * **Texto da Tela:**
-  * **[AMARELO]:** `VAI ENTRAR NO CUBÍCULO?`
+  * **[AMARELO]:** `VAI FAZER MANUTENÇÃO?`
   * **[BRANCO BOLD]:** `BLOQUEIE, TRAVE E ETIQUETE`
-  * **[BRANCO]:** `DESLIGAR O DISJUNTOR NÃO BASTA. ENERGIA ZERO É VIDA.`
+  * **[BRANCO]:** `SÓ DESLIGAR NÃO BASTA. ISOLAMENTO TOTAL É VIDA.`
 * **Cena Fotográfica (Direita):** Eletricista instalando garra de bloqueio de 6 furos e cadeado vermelho numerado na manopla do disjuntor geral de caixa moldada do painel.
 * **Rodapé:** `SIPATMA 2026  |  SEGURANÇA COMEÇA COM VOCÊ. 🍃` — **TekSea®**
 
@@ -130,9 +130,9 @@
 * **Contexto:** Proteção contra toque acidental em partes vivas e barramentos internos.
 * **Ícone Gráfico:** Mão sendo barrada por anteparo transparente em vermelho e branco (`🚫`).
 * **Texto da Tela:**
-  * **[VERMELHO]:** `ANTEPARO ACRÍLICO`
+  * **[VERMELHO]:** `PROTEÇÃO FÍSICA`
   * **[BRANCO BOLD]:** `NÃO É OPCIONAL`
-  * **[BRANCO]:** `BARREIRAS CONTRA TOQUE ACIDENTAL SALVAM OPERADORES E CLIENTES.`
+  * **[BRANCO]:** `BARREIRAS CONTRA TOQUE ACIDENTAL SÃO ESSENCIAIS PARA TODOS.`
 * **Cena Fotográfica (Direita):** Montador parafusando com precisão a placa protetora de policarbonato transparente sobre as conexões de entrada de um inversor de frequência de grande porte.
 * **Rodapé:** `SIPATMA 2026  |  SEGURANÇA COMEÇA COM VOCÊ. 🍃` — **TekSea®**
 
@@ -142,9 +142,9 @@
 * **Contexto:** Calçados isolantes, vestimentas RF (retardante de chama) e óculos de proteção.
 * **Ícone Gráfico:** Silhueta iluminada com capacete de isolamento e botina sem metal (`⛑️`).
 * **Texto da Tela:**
-  * **[VERDE]:** `AMBIENTE ELÉTRICO`
-  * **[BRANCO BOLD]:** `ZERO CONDUTORES NO CORPO`
-  * **[BRANCO]:** `BOTINA METAL-FREE, SEM ALIANÇA, SEM CORRENTES. USE SEU EPI.`
+  * **[VERDE]:** `AMBIENTE INDUSTRIAL`
+  * **[BRANCO BOLD]:** `ZERO ADORNOS NO CORPO`
+  * **[BRANCO]:** `SEM ALIANÇA, SEM CORRENTES. O USO CORRETO DO EPI É OBRIGATÓRIO.`
 * **Cena Fotográfica (Direita):** Montador mostrando as mãos sem anéis ou relógio de metal, calçando luva de proteção sobre luva dielétrica, devidamente uniformizado com tecido anti-arco.
 * **Rodapé:** `SIPATMA 2026  |  SEGURANÇA COMEÇA COM VOCÊ. 🍃` — **TekSea®**
 
@@ -155,8 +155,8 @@
 * **Ícone Gráfico:** Placa octogonal de pare com símbolo de alta tensão (`🛑`).
 * **Texto da Tela:**
   * **[VERMELHO]:** `ÁREA SEM ISOLAMENTO?`
-  * **[BRANCO BOLD]:** `NÃO INICIE O HIPOT`
-  * **[BRANCO]:** `VOCÊ TEM O DEVER DE PARAR SE HOUVER RISCO DE CHOQUE PARA A EQUIPE.`
+  * **[BRANCO BOLD]:** `NÃO INICIE O TESTE`
+  * **[BRANCO]:** `VOCÊ TEM O DIREITO E O DEVER DE RECUSAR SE HOUVER RISCO PARA A EQUIPE.`
 * **Cena Fotográfica (Direita):** Técnico de testes em frente ao painel isolado por correntes zebradas e cones, acionando o botão de emergência do equipamento de ensaio ao notar pessoa próxima.
 * **Rodapé:** `SIPATMA 2026  |  SEGURANÇA COMEÇA COM VOCÊ. 🍃` — **TekSea®**
 
@@ -166,9 +166,9 @@
 * **Contexto:** Chaves ou soquetes soltos dentro de calhas e barramentos que geram arco no teste.
 * **Ícone Gráfico:** Chave de fenda solta com centelha em losango amarelo (`⚠️`).
 * **Texto da Tela:**
-  * **[AMARELO]:** `ESQUECEU UMA CHAVE?`
+  * **[AMARELO]:** `ESQUECEU UMA FERRAMENTA?`
   * **[BRANCO BOLD]:** `INSPEÇÃO FINAL RIGOROSA`
-  * **[BRANCO]:** `UM OBJETO ESQUECIDO NO BARRAMENTO EXPLODE NO PRIMEIRO COMANDO.`
+  * **[BRANCO]:** `UM OBJETO ESQUECIDO NA MÁQUINA PODE CAUSAR UM DESASTRE INESPERADO.`
 * **Cena Fotográfica (Direita):** Inspetor de qualidade com lanterna técnica inspecionando o compartimento interno de barramento e calha plástica antes do fechamento do espelho.
 * **Rodapé:** `SIPATMA 2026  |  SEGURANÇA COMEÇA COM VOCÊ. 🍃` — **TekSea®**
 
@@ -178,9 +178,9 @@
 * **Contexto:** Ferramentas manuais para montagem e manutenção elétrica certificadas (NBR 9699).
 * **Ícone Gráfico:** Ferramenta isolada em vermelho e amarelo com selo 1.000 V (`🚫`).
 * **Texto da Tela:**
-  * **[VERMELHO]:** `FITA ISOLANTE NÃO É ISOLAMENTO`
-  * **[BRANCO BOLD]:** `USE FERRAMENTA 1.000V CERTIFICADA`
-  * **[BRANCO]:** `FERRAMENTA DESCASCADA OU IMPROVISADA DEVE SER DESCARTADA.`
+  * **[VERMELHO]:** `IMPROVISO NÃO É SOLUÇÃO`
+  * **[BRANCO BOLD]:** `USE FERRAMENTAS CERTIFICADAS`
+  * **[BRANCO]:** `FERRAMENTA DANIFICADA OU ADAPTADA DEVE SER DESCARTADA IMEDIATAMENTE.`
 * **Cena Fotográfica (Direita):** Comparativo visual: alicate de ponta com cabo isolado bicolor vermelho/amarelo certificado 1000V em perfeito estado sobre a bancada técnica.
 * **Rodapé:** `SIPATMA 2026  |  SEGURANÇA COMEÇA COM VOCÊ. 🍃` — **TekSea®**
 
@@ -190,9 +190,9 @@
 * **Contexto:** Interpretação de esquemas unifilares e trifilares de alta densidade.
 * **Ícone Gráfico:** Bateria fraca estilizada com esquema elétrico de fundo (`🪫`).
 * **Texto da Tela:**
-  * **[LARANJA]:** `VISTAS CANSADAS?`
-  * **[BRANCO BOLD]:** `PAUSE ANTES DE LIGAR`
-  * **[BRANCO]:** `A FADIGA INVERTE FASES E POLARIDADES. REVISE COM ATENÇÃO.`
+  * **[LARANJA]:** `MÃO DE OBRA CANSADA?`
+  * **[BRANCO BOLD]:** `FAÇA UMA PAUSA`
+  * **[BRANCO]:** `A FADIGA CAUSA ERROS CRÍTICOS. REVISE SEU TRABALHO COM ATENÇÃO.`
 * **Cena Fotográfica (Direita):** Montador eletrotécnico com prancheta de esquema elétrico descansando a vista, bebendo água e conferindo com calma as anilhas de identificação dos cabos.
 * **Rodapé:** `SIPATMA 2026  |  SEGURANÇA COMEÇA COM VOCÊ. 🍃` — **TekSea®**
 
@@ -202,9 +202,9 @@
 * **Contexto:** Circuito de comando que não atracou no teste de lógica.
 * **Ícone Gráfico:** Raio elétrico de curto-circuito em vermelho vivo (`⚡`).
 * **Texto da Tela:**
-  * **[VERMELHO]:** `O RELE NÃO ACIONOU?`
-  * **[BRANCO BOLD]:** `NÃO FORCE COM A CHAVE!`
-  * **[BRANCO]:** `EMPURRAR O CONTATOR MANUALMENTE PODE CAUSAR ARCO E QUEIMADURA GRAVE.`
+  * **[VERMELHO]:** `ALGO TRAVOU?`
+  * **[BRANCO BOLD]:** `NÃO FORCE O EQUIPAMENTO!`
+  * **[BRANCO]:** `FORÇAR MECANISMOS MANUALMENTE PODE CAUSAR UM ACIDENTE GRAVE.`
 * **Cena Fotográfica (Direita):** Eletrotécnico com expressão analítica segurando ponta de prova e analisando o circuito de comando no multímetro, sem recorrer a atalhos arriscados.
 * **Rodapé:** `SIPATMA 2026  |  SEGURANÇA COMEÇA COM VOCÊ. 🍃` — **TekSea®**
 
@@ -214,9 +214,9 @@
 * **Contexto:** Transporte de armários elétricos autoportantes (risco de tombamento).
 * **Ícone Gráfico:** Silhueta de painel elétrico inclinado com sinal de alerta amarelo (`📦`).
 * **Texto da Tela:**
-  * **[AMARELO]:** `MOVENDO O PAINEL?`
-  * **[BRANCO BOLD]:** `CENTRO DE GRAVIDADE ALTO`
-  * **[BRANCO]:** `TRANSPORTE EM DOIS COLABORADORES. NUNCA DEIXE O ARMARIO TOMBAR.`
+  * **[AMARELO]:** `MOVIMENTANDO CARGA?`
+  * **[BRANCO BOLD]:** `ATENÇÃO AO EQUILÍBRIO`
+  * **[BRANCO]:** `PEÇA AJUDA A UM COLEGA. NUNCA DEIXE O EQUIPAMENTO TOMBAR.`
 * **Cena Fotográfica (Direita):** Dois colaboradores conduzindo com cuidado um painel autoportante de 2 metros em carrinho com rodízios traváveis, mantendo as mãos nas laterais seguras.
 * **Rodapé:** `SIPATMA 2026  |  SEGURANÇA COMEÇA COM VOCÊ. 🍃` — **TekSea®**
 
@@ -226,9 +226,9 @@
 * **Contexto:** Uso de talhas, pontes rolantes e estropos para carregar cubículos montados.
 * **Ícone Gráfico:** Olhal de içamento rosqueado com gancho e ângulo correto em vermelho (`🏗️`).
 * **Texto da Tela:**
-  * **[VERMELHO]:** `IÇAMENTO DE PAINÉIS`
-  * **[BRANCO BOLD]:** `VERIFIQUE OS OLHAIS`
-  * **[BRANCO]:** `CERTIFIQUE O APERTO TOTAL DOS OLHAIS E O ÂNGULO DAS LINGAS.`
+  * **[VERMELHO]:** `IÇAMENTO DE CARGA PESADA`
+  * **[BRANCO BOLD]:** `VERIFIQUE AS AMARRAÇÕES`
+  * **[BRANCO]:** `CERTIFIQUE A FIXAÇÃO CORRETA E O ÂNGULO DE IÇAMENTO.`
 * **Cena Fotográfica (Direita):** Montador conferindo o aperto e o assentamento dos 4 olhais de içamento M12/M16 no teto do cubículo antes de liberar o engate da talha elétrica.
 * **Rodapé:** `SIPATMA 2026  |  SEGURANÇA COMEÇA COM VOCÊ. 🍃` — **TekSea®**
 
@@ -239,8 +239,8 @@
 * **Ícone Gráfico:** Vassoura / coletor de aparas com brilho verde (`✨`).
 * **Texto da Tela:**
   * **[VERDE]:** `BANCADA E CHÃO LIMPOS`
-  * **[BRANCO BOLD]:** `ZERO APARAS METÁLICAS`
-  * **[BRANCO]:** `PONTAS DE FIO NO CHÃO CAUSAM QUEDAS E DENTRO DO PAINEL GERAM CURTO.`
+  * **[BRANCO BOLD]:** `ORGANIZAÇÃO É TUDO`
+  * **[BRANCO]:** `SUJEIRA E RESTOS DE MATERIAL CAUSAM QUEDAS E COMPROMETEM A QUALIDADE.`
 * **Cena Fotográfica (Direita):** Técnico recolhendo aparas de fios e rebarbas de canaletas para o coletor de descarte com bancada limpa e aspirador eletrostático.
 * **Rodapé:** `SIPATMA 2026  |  SEGURANÇA COMEÇA COM VOCÊ. 🍃` — **TekSea®**
 
@@ -250,9 +250,9 @@
 * **Contexto:** Energização de painéis de potência e grandes alimentadores de entrada.
 * **Ícone Gráfico:** Explosão de luz / arco elétrico estroboscópico em amarelo e laranja (`💥`).
 * **Texto da Tela:**
-  * **[AMARELO]:** `ARCO ELÉTRICO`
-  * **[BRANCO BOLD]:** `CALOR MAIOR QUE O DO SOL`
-  * **[BRANCO]:** `FECHE AS PORTAS ANTES DE MANOBRAR. NUNCA FIQUE DE FRENTE PARA O DISJUNTOR.`
+  * **[AMARELO]:** `OPERAÇÃO DE RISCO`
+  * **[BRANCO BOLD]:** `SIGA OS PROCEDIMENTOS`
+  * **[BRANCO]:** `MANTENHA A DISTÂNCIA DE SEGURANÇA E NÃO SE EXPONHA DIRETAMENTE.`
 * **Cena Fotográfica (Direita):** Operador posicionado lateralmente ao painel (técnica correta fora da zona de sopro) acionando a manopla externa com visor de proteção facial e capuz anti-arco.
 * **Rodapé:** `SIPATMA 2026  |  SEGURANÇA COMEÇA COM VOCÊ. 🍃` — **TekSea®**
 
@@ -262,9 +262,9 @@
 * **Contexto:** Montagem de calhas, bornes inferiores e componentes pesados na placa de montagem.
 * **Ícone Gráfico:** Silhueta anatômica com coluna reta diante de mesa articulada em azul (`🧘‍♂️`).
 * **Texto da Tela:**
-  * **[AZUL]:** `PRESERVE SUA LOMBAR`
-  * **[BRANCO BOLD]:** `AJUSTE O CAVALETE`
-  * **[BRANCO]:** `TRABALHE NA ALTURA CERTA. NÃO MONTE PAINÉIS CURVADO POR HORAS.`
+  * **[AZUL]:** `PRESERVE SUA SAÚDE`
+  * **[BRANCO BOLD]:** `ATENÇÃO À POSTURA`
+  * **[BRANCO]:** `TRABALHE NA ALTURA CERTA. EVITE ESFORÇOS DESNECESSÁRIOS E MÁS POSTURAS.`
 * **Cena Fotográfica (Direita):** Montador trabalhando em placa de montagem instalada em cavalete basculante ergonômico com regulagem de inclinação e altura, mantendo coluna perfeitamente ereta.
 * **Rodapé:** `SIPATMA 2026  |  SEGURANÇA COMEÇA COM VOCÊ. 🍃` — **TekSea®**
 
@@ -276,7 +276,7 @@
 * **Texto da Tela:**
   * **[VERDE]:** `SUA MAIOR OBRA`
   * **[BRANCO BOLD]:** `É VOLTAR SEGURO`
-  * **[BRANCO]:** `CADA PAINEL QUE SAI DAQUI PROTEGE VIDAS. A PRIMEIRA É A SUA.`
+  * **[BRANCO]:** `CADA EQUIPAMENTO FEITO AQUI PROTEGE VIDAS. A PRIMEIRA É A SUA.`
 * **Cena Fotográfica (Direita):** Eletrotécnico com uniforme e crachá admirando um painel concluído e testado com etiqueta de conformidade verde, sorrindo e pronto para o fim do expediente.
 * **Rodapé:** `SIPATMA 2026  |  SEGURANÇA COMEÇA COM VOCÊ. 🍃` — **TekSea®**
 
