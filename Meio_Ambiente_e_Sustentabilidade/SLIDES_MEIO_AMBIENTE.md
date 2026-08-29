@@ -218,14 +218,14 @@
 
 ---
 
-### 📺 Slide 16 — Consumo Consciente no Refeitório
-* **Contexto:** Desperdício de comida durante os intervalos e almoço.
+### 📺 Slide 16 — Consumo Consciente com Marmitas
+* **Contexto:** Consumo de marmitas pedidas para os intervalos e almoço, evitando o desperdício de alimentos.
 * **Ícone Gráfico:** Prato com talheres e ícone de balança sustentável (`🍽️`).
 * **Texto da Tela:**
   * **[VERDE]:** `NA HORA DA REFEIÇÃO`
-  * **[BRANCO BOLD]:** `SIRVA SÓ O QUE VAI COMER`
-  * **[BRANCO]:** `O DESPERDÍCIO DE ALIMENTOS IMPACTA SEVERAMENTE O MEIO AMBIENTE. SEJA CONSCIENTE.`
-* **Cena Fotográfica (Direita):** Colaboradores de uniforme no refeitório, servindo porções adequadas na bandeja, refletindo responsabilidade e evitando restos na área de devolução de pratos.
+  * **[BRANCO BOLD]:** `EVITE DESPERDÍCIO NA MARMITA`
+  * **[BRANCO]:** `APROVEITE BEM SUA REFEIÇÃO. O DESPERDÍCIO DE ALIMENTOS TAMBÉM IMPACTA O MEIO AMBIENTE.`
+* **Cena Fotográfica (Direita):** Colaboradores de uniforme no refeitório, consumindo marmitas individuais pedidas para o almoço, com porções adequadas e sem buffet ou autosserviço.
 * **Rodapé:** `SIPATMA 2026  |  SUSTENTABILIDADE NA PRÁTICA. 🍃` — **TekSea®**
 
 ---
