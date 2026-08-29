@@ -1,5 +1,5 @@
 # 📋 FICHAS TÉCNICAS DE EQUIPAMENTOS DE PROTEÇÃO INDIVIDUAL (EPI)
-### TekSea — Programa de Segurança e Saúde Ocupacional (SSIPATMA)
+### TekSea — Programa de Segurança e Saúde Ocupacional (SIPATMA)
 
 Documentação técnica descritiva de especificação, uso, manutenção e requisitos normativos dos Equipamentos de Proteção Individual em conformidade com as Normas Regulamentadoras do Ministério do Trabalho e Emprego (**NR-06, NR-10, NR-12** e normas técnicas **ABNT / NBR**).
 
@@ -175,7 +175,7 @@ Em atendimento ao item **6.6 e 6.7 da Norma Regulamentadora nº 06 (MTE)**:
 1. Utilizar o EPI fornecido apenas para a finalidade a que se destina.
 2. Responsabilizar-se pela guarda, limpeza e conservação diária do seu equipamento individual.
 3. Comunicar imediatamente à supervisão ou ao SESMT/CIPA qualquer alteração, desgaste crítico ou dano que torne o EPI impróprio para uso.
-4. Cumprir integralmente as determinações da empresa sobre o uso pessoal adequado e participar dos treinamentos de segurança da SSIPATMA.
+4. Cumprir integralmente as determinações da empresa sobre o uso pessoal adequado e participar dos treinamentos de segurança da SIPATMA.
 
 ---
-*Documento emitido para a comissão organizadora da **SSIPATMA / SESMT — TekSea**.*
+*Documento emitido para a comissão organizadora da **SIPATMA / SESMT — TekSea**.*
